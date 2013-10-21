@@ -38,7 +38,7 @@ function debian {
 
 ## Ubuntu
 function ubuntu {
-  echo This will only be executed on an Ubuntu systems.
+  echo "This will only be executed on an Ubuntu systems."
 }
 
 ## CentOS
