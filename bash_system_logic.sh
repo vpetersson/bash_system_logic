@@ -14,7 +14,7 @@
 OS=$(python -c 'import platform; print platform.system()')
 
 ## Returns 'Debian', 'Ubuntu', 'Fedora' etc.
-DIST=$(python -c 'import platform; dist = platform.linux_distribution()[0]; print dist[0].upper() + dist[1:])
+DIST=$(python -c 'import platform; dist = platform.linux_distribution()[0]; print dist[0].upper() + dist[1:]')
 
 ## Returns the distribution version.
 DISTVER=$(python -c 'import platform; print platform.linux_distribution()[1]')
